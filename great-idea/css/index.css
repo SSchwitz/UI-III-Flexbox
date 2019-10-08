@@ -64,3 +64,131 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	background-color:white;
+}
+.container {
+width: 1000px;
+margin: 0 auto;
+background-color: white;
+
+}
+/* Header Nav */
+header{
+margin: 0px 0px 60px 0px;
+text-align: center;
+width: 100%;
+padding: 10px 0px;
+position: fixed;
+background-color: white;
+}
+
+#nav-menu{
+display: flex;
+justify-content:flex-start;
+align-items:center;
+}
+
+/* #nav-logo{ 
+display:flex;
+justify-content:center;	
+align-items:flex-end; 
+
+}  */
+
+
+#nav-menu{
+display:flex;
+flex-flow:row nowrap;
+}
+nav a {
+padding: 30px;
+color: Black;
+text-decoration: none;
+}
+
+/* Action  */
+
+#section1{
+width:100%;
+padding: 10px 0px;
+text-align: center;
+margin: 0px 0px 100px 0px;
+}
+#sub, #sub-logo{
+display: inline-block;
+vertical-align: middle;
+margin-top: 100px;
+}
+#sub {
+font-size: 75px;
+margin:0px;
+padding: 0px;
+text-align: center;
+}
+#button1{
+padding: 10px 40px;
+margin: 0px;
+background-color: white;
+border: 1px black solid;
+color:white;
+}
+#button1:hover {
+background-color: white;
+color: black;
+}
+#mega-huge{
+padding: 5px;
+margin: 5px;
+display:flex;
+}
+
+
+/* Sections */
+
+.wrapper{
+width: 100%;
+display:flex;
+justify-content:space-between;
+}
+
+.section-block1{
+	width:45%;
+}
+.section-block2{
+	width:30%;
+}
+
+
+/* Middle img */
+.wrapper img{
+display:flex;
+align-items:stretch;
+width: 150%; 
+}
+
+
+footer {
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer a {
+    color:#000;
+    text-decoration: none;
+}
+
+#copyright {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Designed by sam :P */
